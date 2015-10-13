@@ -1,0 +1,19 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "openfin-dl",
+        "description": "OpenFin POC",
+        "url": "http://www.openfin.co",
+        "uuid": "openfin-dl-pcxs3ki8n3tyb9",
+        "autoShow": true
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "beta"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Openfin POC",
+        "name": "openfin-dl"
+    }
+}
