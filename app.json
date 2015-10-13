@@ -3,7 +3,7 @@
     "startup_app": {
         "name": "OpenfinPOC",
         "description": "OpenFin POC",
-        "url": "http://www.openfin.co",
+        "url": "http://datamadic.github.io/openfin-dl/",
         "uuid": "OpenfinPOC-btdjk8mkydx3whfr",
         "autoShow": true
     },
