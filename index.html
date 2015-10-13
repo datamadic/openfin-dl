@@ -2,12 +2,29 @@
 <head>
         <meta charset="UTF-8">
         <title>OpenFin Download</title>
+				<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 
 </head>
 <body>
         <a href="34k.json" download>jay son </a>
         <br/><br/>
         <button onclick="window.open('foo.xlsx')">Download some XLSX</button>
+        <br/><br/>
+				<div ng-app="demo">
+					<div ng-controller="test">
+						<div style="background:#ccc" 
+							ng-click="openL()">Download xlsx from Angular</div>
+					</div>
+				</div>
 
+<script>
+	angular.module('demo', [])
+  .controller('test', function($scope, $window) {
+		$scope.openL = function(){
+			console.log('hey');
+			$window.open('foo.xlsx');			
+		};
+  });
+</script>
 </body>
 </html>
